@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('path-to-font/poppins-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .set {
+   display: flex;
+   flex-direction: row;
+   /* justify-content: space-between; */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .set {
+      justify-content: space-between;
+    }
+  }
+  .txtset {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+   }
+   
+   
+   @media (max-width: 268px) {
+     .txtset {
+       justify-content: space-between;
+     }
+   }
+
+.marginset{
+  margin-left:0px ;
+}
+  @media (min-width: 768px) {
+    .marginset {
+      margin-left:40px ;
+    }
+  }
+  .txtmarginset{
+    margin-left:0px ;
+  }
+    @media (min-width: 268px) {
+      .txtmarginset {
+        margin-left:40px ;
+      }
+    }
+  
